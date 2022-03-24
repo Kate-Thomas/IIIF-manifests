@@ -1,0 +1,13 @@
+{
+  "id" : "https://Kate-Thomas.github.io/IIIF-manifests/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in Kate-Thomas/IIIF-manifests project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://Kate-Thomas.github.io/IIIF-manifests/manifests/manifest2.json",
+    "label" : "Japanese Design Books"
+  } ]
+}
