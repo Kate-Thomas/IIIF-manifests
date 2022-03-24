@@ -1,0 +1,84 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "textile",
+      "@type" : "oa:Tag",
+      "chars" : "textile"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "flower",
+      "@type" : "oa:Tag",
+      "chars" : "flower"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Textile design featuring poppy",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Textile design featuring poppy</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/80705157",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2022-03-24T09:03:30",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1648112610149",
+    "dcterms:modified" : "2022-03-24T09:03:30",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://Kate-Thomas.github.io/IIIF-manifests/manifests/manifest3.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=528,2152,1274,1210"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M527.8464,2152.07839h636.81568v0h636.81568v605.02489v605.02489h-636.81568h-636.81568v-605.02489z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_3639592e-6f13-4c1d-a1b9-82d10860fe7b\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://c333669a-2d7f-4a7b-ae36-b3af70afdc90"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "sweet",
+      "@type" : "oa:Tag",
+      "chars" : "sweet"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Sweet design featuring flower and river",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Sweet design featuring flower and river</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/80705157",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2022-03-24T09:03:03",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1648112583760",
+    "dcterms:modified" : "2022-03-24T09:03:03",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://Kate-Thomas.github.io/IIIF-manifests/manifests/manifest3.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=3258,845,1084,955"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3258.04237,844.54379h542.18997v0h542.18997v477.67726v477.67726h-542.18997h-542.18997v-477.67726z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_17118ebc-bd3d-475e-8d46-651ce1d60751\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://7c525f26-858c-49f7-a78f-97acdbea1046"
+    } ]
+  } ],
+  "@id" : "https://Kate-Thomas.github.io/IIIF-manifests/annotations/combined.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
