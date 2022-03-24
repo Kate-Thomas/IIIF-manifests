@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://Kate-Thomas.github.io/IIIF-manifests/annotations/9c8ac8a6d7c620b38fb21f9d48c89170.json" ],
+  "@id" : "https://Kate-Thomas.github.io/IIIF-manifests/annotations/collection.json",
+  "label" : "All annotations loaded in Kate-Thomas/IIIF-manifests project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
