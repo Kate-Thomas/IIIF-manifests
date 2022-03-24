@@ -1,0 +1,100 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Kate-Thomas.github.io/IIIF-manifests/manifests/manifest3.json",
+  "@type" : "sc:Manifest",
+  "label" : "Japanese Design Books",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/80705157/09dc7ea1203ecfbea75a46c9375405ab/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "A selection of images from the British Library's collection of Japanese Design Books",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "British Library",
+  "sequences" : [ {
+    "@id" : "http://73d2e039-bee1-4100-962e-f8ede5cbacbd",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://7c525f26-858c-49f7-a78f-97acdbea1046",
+      "@type" : "sc:Canvas",
+      "label" : "Or 949",
+      "height" : 4632,
+      "width" : 6090,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://d5176d4b-5947-42ee-9275-fec8a5fe610e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100101764233.0x000014/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100101764233.0x000014",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "maxHeight" : 2000,
+              "maxWidth" : 2000,
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 4632,
+          "width" : 6090
+        },
+        "on" : "http://7c525f26-858c-49f7-a78f-97acdbea1046"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://kate-thomas.github.io/IIIF-manifests/annotations/9c8ac8a6d7c620b38fb21f9d48c89170.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "Or 949 annotations"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://c333669a-2d7f-4a7b-ae36-b3af70afdc90",
+      "@type" : "sc:Canvas",
+      "label" : "ORB.30/132",
+      "height" : 4619,
+      "width" : 6669,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://1dfa6560-968d-490a-91eb-1aff9db05140",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100098846175.0x000015/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100098846175.0x000015",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "maxHeight" : 2000,
+              "maxWidth" : 2000,
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 4619,
+          "width" : 6669
+        },
+        "on" : "http://c333669a-2d7f-4a7b-ae36-b3af70afdc90"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://iiif-test.github.io/BLJan2022/annotations/ce1d6509b5ec52275691847dd08d36b5.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "ORB.30/132 annotations"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
