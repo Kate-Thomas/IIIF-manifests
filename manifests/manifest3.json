@@ -89,7 +89,7 @@
         "on" : "http://c333669a-2d7f-4a7b-ae36-b3af70afdc90"
       } ],
       "otherContent" : [ {
-        "@id" : "https://iiif-test.github.io/BLJan2022/annotations/ce1d6509b5ec52275691847dd08d36b5.json",
+        "@id" : "https://kate-thomas.github.io/IIIF-manifests/annotations/b480945ab944262040e42359fd555817.json",
         "@type" : "sc:AnnotationList",
         "label" : "ORB.30/132 annotations"
       } ],
