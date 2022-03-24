@@ -3,6 +3,11 @@
   "@id" : "https://Kate-Thomas.github.io/IIIF-manifests/manifests/manifest2.json",
   "@type" : "sc:Manifest",
   "label" : "Japanese Design Books",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/80705157/09dc7ea1203ecfbea75a46c9375405ab/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
   "metadata" : [ ],
   "description" : [ {
     "@value" : "A selection of images from the British Library's collection of Japanese Design Books",
@@ -46,6 +51,11 @@
           "width" : 6090
         },
         "on" : "http://7c525f26-858c-49f7-a78f-97acdbea1046"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://kate-thomas.github.io/IIIF-manifests/annotations/9c8ac8a6d7c620b38fb21f9d48c89170.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
       } ],
       "related" : ""
     }, {
